@@ -8,6 +8,12 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+:root {
+  --primary: #4752c6;
+  --secondary: #474554;
+  --tertiary: #ACA9BB;
+}
+
 body {
   font-family: "Poppins", sans-serif;
   color: #444444;
@@ -107,6 +113,10 @@ h6 {
   transition: all 0.5s;
   padding: 10px 0;
   background: rgba(26, 24, 22, 0.85);
+}
+
+#header img {
+  transform: scale(1.5);
 }
 
 #header.header-transparent {
@@ -1014,7 +1024,7 @@ section {
 # Events
 --------------------------------------------------------------*/
 .events {
-  background: url(../img/events-bg.jpg) center center no-repeat;
+  background: url(../images/stock/background-skyline.jpg) center center no-repeat;
   background-size: cover;
   position: relative;
 }
